@@ -340,6 +340,18 @@ function App() {
       </section>
 
       <main className="mx-auto max-w-6xl px-6 py-12 md:py-16">
+        <section className="mb-12 rounded-2xl bg-[#1a365d] p-8 text-white">
+          <h2 className="text-2xl font-extrabold">為什麼值得期待《步步紮實》？</h2>
+          <p className="mt-4 max-w-4xl leading-relaxed text-slate-100">
+            這不是一本只談成功學的書，而是一套可落地實踐的人生複利系統。從
+            <span className="font-semibold text-white"> 45年職涯長尾效應 </span>到
+            <span className="font-semibold text-white"> 投資複利系統 </span>，從
+            <span className="font-semibold text-white"> 準備型學習法 </span>到
+            <span className="font-semibold text-white"> 全球旅遊底韻 </span>
+            ，幫助你在工作、財富、學習、視野四條路上同步累積，長期勝出。
+          </p>
+        </section>
+
         <section className="mb-12 rounded-2xl border border-slate-200 bg-slate-50 p-6 md:p-8">
           <div className="mb-4 flex items-center justify-between gap-4">
             <div className="flex items-center gap-2">
@@ -461,17 +473,6 @@ function App() {
           </div>
         </section>
 
-        <section className="rounded-2xl bg-[#1a365d] p-8 text-white">
-          <h2 className="text-2xl font-extrabold">為什麼值得期待《步步紮實》？</h2>
-          <p className="mt-4 max-w-4xl leading-relaxed text-slate-100">
-            這不是一本只談成功學的書，而是一套可落地實踐的人生複利系統。從
-            <span className="font-semibold text-white"> 45年職涯長尾效應 </span>到
-            <span className="font-semibold text-white"> 投資複利系統 </span>，從
-            <span className="font-semibold text-white"> 準備型學習法 </span>到
-            <span className="font-semibold text-white"> 全球旅遊底韻 </span>
-            ，幫助你在工作、財富、學習、視野四條路上同步累積，長期勝出。
-          </p>
-        </section>
       </main>
     </div>
   );
